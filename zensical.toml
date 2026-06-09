@@ -1,11 +1,11 @@
 [project]
 
-site_name = "Plantilla"
-site_description = "Un plantilla de uso de Zensical"
-site_author = "Author"
-site_url = "https://andresit1524.github.io/zensical_template/"
+site_name = "BCC Docs"
+site_description = "Documentación técnica de BCC"
+site_author = "BCC DevTeam"
+site_url = "https://andresit1524.github.io/bcc_docs/"
 copyright = """
-Copyright &copy; 2026 Author
+Copyright &copy; 2026 BCC DevTeam
 """
 
 # ----------------------------------------------------------------------------
