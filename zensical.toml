@@ -18,8 +18,8 @@ extra_javascript = [
 [project.theme]
 
 language = "es"
-favicon = "images/icon.png"
-logo = "images/icon.png"
+favicon = "assets/images/icon.png"
+logo = "assets/images/icon.png"
 
 features = [
   "content.code.copy",
@@ -42,7 +42,7 @@ features = [
 
 # Fuentes
 [project.theme.font]
-text = "Lato"
+text = "Delius"
 code = "Google Sans Code"
 
 
