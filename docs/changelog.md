@@ -8,6 +8,13 @@
 ---
 
 ## Junio del 2026
+
+### Semana del 7 al 14 de junio
+- 11 de junio: 
+    - Limpieza general y actualización del repositorio
+    - Preparación para la versión 0.2
+
+### Semana del 1 al 7 de junio
 - 1 de junio:
     - Menú de pausa en batalla
     - Tutorial básico en sustitución a los paneles viejos
