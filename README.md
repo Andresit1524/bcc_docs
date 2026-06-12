@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="assets/icon.png" width="10%"/>
+    <img src="./docs/assets/images/icon.png" width="15%"/>
     <h1>Documentación de Beast Card Clash</h1>
 </div>
 
