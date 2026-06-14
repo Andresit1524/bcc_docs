@@ -10,6 +10,10 @@
 ## Junio del 2026
 
 ### Semana del 7 al 14 de junio
+- 14 de junio:
+    - Renombre definitivo de `World` hacia `Stage`
+    - Interfaz de batalla agrupada
+    - Recarga de los archivos del proyecto
 - 13 de junio:
     - Mejoras en el manejo de los turnos y la inicialización en batalla
     - **(Docs)** Nueva página: `Arquitectura/Máquina de estados de la batalla`
