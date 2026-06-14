@@ -2,7 +2,7 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Zensical compile",
+            "label": "Zensical serve",
             "type": "shell",
             "command": "zensical serve",
             "group": "none",
