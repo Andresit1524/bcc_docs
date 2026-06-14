@@ -24,22 +24,13 @@ o Battle
 ## Paso a paso de cada estado
 
 ```mermaid
-graph LR
-    S((Start))
-    L((Loop))
-    T((Turn))
-    R((Referee))
-    E((End))
+graph LR 
+    S((Start)); L((Loop)); T((Turn)); R((Referee)); E((End));
 
-    S --> L
-    S --> T
-
-    L --> R
-    T --> R
-    T --> L
-
-    R --> L
-    R --> T
+    S --> T & L
+    L <==> T
+    L ==> L 
+    T & L <==> R
     R --> E
 ```
 
