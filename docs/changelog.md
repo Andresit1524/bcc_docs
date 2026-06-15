@@ -1,9 +1,14 @@
 # Registro de cambios (Changelog)
+Este changelog recopila los cambios en el juego y en la documentación. Estos últimos se etiquetan con **(Docs)**.
 
-!!! Warning "Nota"
-    Este changelog recopila los cambios en el juego y en la documentación. Estos últimos se etiquetan con **(Docs)**.
-    
-    _Los cambios en la documentación mostrados aquí solo incluyen páginas nuevas, eliminadas o cambios relevantes_. Si necesitas más detalles, consulta el historial de git de este repo.
+_Los cambios en la documentación registrados aquí solo incluyen páginas nuevas, eliminadas o cambios importantes_. Si necesitas más detalles, consulta el [historial de git de la documentación](https://github.com/Andresit1524/bcc_docs) y el [del juego](https://github.com/Andresit1524/beast_card_clash).
+
+!!! Note "Formato"
+
+    El formato para el changelog y el orden cronológico es el siguiente:
+
+    - Meses, semanas y días: **orden descendente**
+    - Tareas dentro del mismo día: **orden ascendente**
 
 ---
 
@@ -16,7 +21,7 @@
     - Recarga de los archivos del proyecto
 - 13 de junio:
     - Mejoras en el manejo de los turnos y la inicialización en batalla
-    - **(Docs)** Nueva página: `Arquitectura/Máquina de estados de la batalla`
+    - **(Docs)** Nueva página: [Máquina de estados de la batalla](./arquitectura/battle_sfm.md)
     - Optimización del referee y la gestión de la batalla
     - Ahora el podium siempre se muestra y es el correcto
     - Corrección del error que hacia que el primer jugador, cuando era el humano en la roca superor, no pudiera moverse apropiadamente
@@ -25,7 +30,7 @@
 - 11 de junio: 
     - Limpieza general y actualización del repositorio
     - Preparación para la versión 0.2
-- 9 de junio: **(Docs)** Inicio de esta nueva documentación en Zensical
+- 9 de junio: **(Docs)** Migración de la documentación de Jekyll a Zensical
 
 ### Semana del 1 al 7 de junio
 - 1 de junio:
@@ -33,7 +38,7 @@
     - Tutorial básico en sustitución a los paneles viejos
     - Música en bucle para el menú y la batalla
     - Etiqueta de versión
-    - **Versión 0.1** para su entrega en el SOFA
+    - **(Release)** Versión 0.1 para su entrega en el SOFA
 
 ---
 
@@ -43,7 +48,7 @@
 - 29 de mayo:
     - Cambios de nombre y limpieza en el código
     - Reorganización de la carpeta de batalla
-- 26 de mayo: **(Docs)** Nueva documentación en GitHub Pages
+- 26 de mayo: **(Docs)** Nueva base para documentación en GitHub Pages
 
 ### Semana del 18 al 24 de mayo
 - 24 de mayo: **(Docs)** Eliminación de documentación vieja (la de IA)
@@ -98,7 +103,7 @@
 - 25 de marzo:
     - El mundo de batalla (`World`) ahora es una escena independiente
     - Implementación de instancia y movimiento de los jugadores
-    - Lista de elementos ahora en una constante
+    - Lista de elementos ahora es una constante: `ElementsList`
     - Mejora en el manejo de los paneles de personaje
     - Corrección en el shader de contorno: ahora se desactiva si el grosor es cero
     - Mejor manejo y responsividad de las rocas y cartas en batalla
@@ -157,8 +162,8 @@
     - Tabuladores y botón de jugar en el selector de equipos
     - Creación de `BattleManager`
     - Mejoras en el sistema de baraja y cartas
-    - Prortotipo de la interfaz y dado de batalla
-    - Actualización de la documentación del proyecto
+    - Prototipo de la interfaz y dado de batalla
+    - **(Docs)** Actualización de la documentación del proyecto
 
 ### Semana del 23 de febrero al 01 de marzo
 - 01 de marzo:
@@ -176,7 +181,7 @@
 ### Semana del 09 al 15 de febrero
 - 10 de febrero:
     - Rediseño de los créditos y mejoras generales en la UI
-    - **(Docs)** Cambio del modelode IA del sistema de documentación
+    - **(Docs)** Cambio del modelo de IA del sistema de documentación
     - Corrección en la skin del panda
     - Primera versión del selector de personajes y aspectos (skins)
     - Cambio a tabuladores para todo el código
@@ -185,7 +190,7 @@
 - 08 de febrero:
     - Verificación de tipos en los `AutoloadResource`
     - Nuevos autoloads: `PlayerStats` y `GameConstants`
-    - Nuevos componentes de UI: Barra superior en pantalla
+    - Nuevo componente de UI: Barra superior en pantalla
 - 07 de febrero:
     - Implementación de los `AutoloadResource`
     - Cambio de fuentes
@@ -226,8 +231,8 @@
 ### Semana del 19 al 25 de enero
 - 25 de enero:
     - Commit inicial: creación del repositorio y estructura básica
+    - Inicialización del proyecto en Godot
     - Actualización de los términos de la licencia del proyecto
-    - Inicialización de la estructura base del proyecto
     - Instalación de Dialogue Manager y MarkdownLabel
     - Configuración de exportación para builds
     - **(Docs)** Implementación del sistema de generación automática de documentación con IA

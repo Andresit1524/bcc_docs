@@ -11,14 +11,12 @@ Cada estado tiene de nombre de clase `Battle*`, donde `*` es el nombre de arriba
 
 ```
 o Battle
-|-...
-|-o BattleManager
-| |-o Start
-| |-o Turn
-| |-o Loop
-| |-o Referee
-| |-o End
-|-...
+┣━○ BattleManager
+┃ ┣━○ Start
+┃ ┣━○ Turn
+┃ ┣━○ Loop
+┃ ┣━○ Referee
+┃ ┗━○ End
 ```
 
 ## Paso a paso de cada estado
