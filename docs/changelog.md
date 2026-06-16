@@ -14,6 +14,13 @@ _Los cambios en la documentación registrados aquí solo incluyen páginas nueva
 
 ## Junio del 2026
 
+### Semana del 15 al 21 de junio
+- 15 de junio:
+    - **(Docs)** Nueva página: [Escena de batalla](./arquitectura/battle_scene.md)
+    - Eliminación de la señal innecesaria `BattleStage.players_ready`
+    - Simplificación de la lógica de la roca
+    - Simplificación de la lógica del dado y su integración con `BattleManager`
+
 ### Semana del 7 al 14 de junio
 - 14 de junio:
     - Renombre definitivo de `World` hacia `Stage`
