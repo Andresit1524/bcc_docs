@@ -15,6 +15,10 @@ _Los cambios en la documentación registrados aquí solo incluyen páginas nueva
 ## Junio del 2026
 
 ### Semana del 15 al 21 de junio
+- 17 de junio:
+    - Constantes de `BattleData` movidas a `Constants`
+    - Eliminación de `Utilities` y `Card.set_properties`
+    - Tipado estático en todas las funciones y lambdas faltantes por ello
 - 16 de junio:
     - Rediseño de jugador: script más sencillo, menos funciones innecesarias y externalización de constantes
     - Reorden en el código de `BattleUI` y `PlayerPanel` para simplificar las funciones y usar Unique Node Names
