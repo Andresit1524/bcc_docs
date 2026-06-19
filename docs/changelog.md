@@ -15,6 +15,10 @@ _Los cambios en la documentación registrados aquí solo incluyen páginas nueva
 ## Junio del 2026
 
 ### Semana del 15 al 21 de junio
+- 18 de junio:
+    - Conversión de `TeamsList` y `ElementsList` a `TeamIcons` y `ElementIcons`, ahora estáticos y precargados
+    - `card/card_sprites/` renombrado a `card/sprites/`
+    - Eliminación de `BattleData.Snapshot` a favor de diccionarios
 - 17 de junio:
     - Constantes de `BattleData` movidas a `Constants`
     - Eliminación de `Utilities` y `Card.set_properties`
