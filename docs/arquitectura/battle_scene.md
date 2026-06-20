@@ -1,5 +1,5 @@
 # Escena de batalla
-La escena de batalla se compone por el siguiente árbol de nodos. Se han omitido varios nodos para resaltar solo la estructura básica:
+La escena de batalla se compone por todos los elementos de la carpeta `assets/battle/`. Se han omitido varios nodos para resaltar solo la estructura básica:
 
 ```
 ○ Battle
@@ -22,14 +22,10 @@ La escena de batalla se compone por el siguiente árbol de nodos. Se han omitido
   ┗━○ Players       # Jugadores
 ```
 
-*La estructura en archivos y carpetas no se añade porque está sujeta a cambios rápidamente*. La estructura del `BattleManager` se explica con un poco más de detalle [aquí](./battle_sfm.md).
+*La estructura en archivos y carpetas no se añade porque está sujeta a cambios rápidamente*, sin embargo es similar a la división propuesta en el árbol de nodos:
 
-!!! Bug "Un problema de estructura"
-    
-    Actualmente esta estructura es enredada a nivel de código, especialmente con:
+1. Estados de batalla
+2. Interfaz
+3. Escenario de batalla
 
-    1. La separación de las responsabilidades en el `BattleManager`
-    2. La excesiva abstracción en el `Stage`
-    3. La arquitectura de las señales y como se propagan por el árbol
-
-    Queda pendiente simplificar esta estructura, y además prepararla para añadir las nuevas reglas y sistemas que le faltan al juego, esto último en el `BattleManager` y sus hijos.
+La estructura del `BattleManager` y sus estados se explica con un poco más de detalle [aquí](./battle_sfm.md).

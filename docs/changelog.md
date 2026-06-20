@@ -10,11 +10,20 @@ _Los cambios en la documentación registrados aquí solo incluyen páginas nueva
     - Meses, semanas y días: **orden descendente**
     - Tareas dentro del mismo día: **orden ascendente**
 
+!!! Example "Proximamente dividido"
+    
+    Más adelante se dividirá este changelog en función de los lanzamientos. Una página para la `v0.1`, otra para la `v0.2` (la versión en desarrollo actualmente) y así sucesivamente.
+
 ---
 
 ## Junio del 2026
 
 ### Semana del 15 al 21 de junio
+- 19 de junio:
+    - Sustitución de `AutoloadResource` con autoloads independientes y con verificación de tipos
+    - Actualización a Godot 4.7
+    - Rediseño de señales en batalla por medio de un bus en la raíz de la escena. **¡Proceso de refactorización de batalla completo!**
+    - **(Docs)** Nueva página: [Señales de la escena de batalla](./arquitectura/battle_signals.md)
 - 18 de junio:
     - Conversión de `TeamsList` y `ElementsList` a `TeamIcons` y `ElementIcons`, ahora estáticos y precargados
     - `card/card_sprites/` renombrado a `card/sprites/`
@@ -39,6 +48,7 @@ _Los cambios en la documentación registrados aquí solo incluyen páginas nueva
     - Interfaz de batalla agrupada
     - Recarga de los archivos del proyecto
 - 13 de junio:
+    - **Inicio del proceso de refactorización de la batalla**
     - Mejoras en el manejo de los turnos y la inicialización en batalla
     - **(Docs)** Nueva página: [Máquina de estados de la batalla](./arquitectura/battle_sfm.md)
     - Optimización del referee y la gestión de la batalla
