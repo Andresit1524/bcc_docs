@@ -14,6 +14,11 @@ Este changelog recopila los cambios en el desarrollo del juego y en la documenta
 
 ---
 
+## Septiembre de 2026
+
+### Semana del 7 al 13 de septiembre
+- 11 de septiembre: Arreglado un error en las banderas
+
 ## Agosto de 2026
 
 ### Semana del 10 al 16 de agosto
