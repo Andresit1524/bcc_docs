@@ -1,5 +1,7 @@
 # Registro de desarrollo (Changelog)
-Este changelog recopila los cambios en el desarrollo del juego y en la documentación. Estos últimos se etiquetan con **(Docs)**. _Los cambios en la documentación registrados aquí solo incluyen páginas nuevas, eliminadas o cambios importantes_. Si necesitas más detalles, consulta el [historial de git de la documentación](https://github.com/Andresit1524/bcc_docs) y el [del juego](https://github.com/Andresit1524/beast_card_clash).
+Este changelog recopila los cambios en el desarrollo del juego y en la documentación que aún no se han lanzado como versión. 
+
+Los cambios en la documentación se etiquetan con **(Docs)** y _solo incluyen páginas nuevas, eliminadas o cambios importantes_. Si necesitas más detalles, consulta el [historial de git de la documentación](https://github.com/Andresit1524/bcc_docs) y el [del juego](https://github.com/Andresit1524/beast_card_clash).
 
 !!! Note "Formato"
 
@@ -14,10 +16,19 @@ Este changelog recopila los cambios en el desarrollo del juego y en la documenta
 
 ---
 
+## Octubre de 2026
+
+### Semana del 5 al 11 de octubre
+- 6 de octubre:
+    - Adición de los nuevos sprites de cartas
+    - Sustitución de los íconos elementales
+    - **(Docs)** nueva página: [créditos](../credits.md)
+    - Nuevo modelo de dado
+
 ## Septiembre de 2026
 
 ### Semana del 7 al 13 de septiembre
-- 11 de septiembre: Arreglado un error en las banderas
+- 11 de septiembre: Arreglado un error en las banderas del juego
 
 ## Agosto de 2026
 
