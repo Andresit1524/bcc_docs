@@ -11,7 +11,6 @@ Los cambios en la documentación se etiquetan con **(Docs)** y _solo incluyen p�
     - Tareas dentro del mismo día: **orden ascendente**
 
 ## Versiones anteriores
-
 - [Versión `0.1`](v0.1.md)
 
 ---
@@ -19,6 +18,10 @@ Los cambios en la documentación se etiquetan con **(Docs)** y _solo incluyen p�
 ## Octubre de 2026
 
 ### Semana del 5 al 11 de octubre
+- 10 de octubre: 
+    - Paneles en batalla renovados
+    - Fondos de batalla implementados (al azar)
+    - Créditos actualizados
 - 6 de octubre:
     - Adición de los nuevos sprites de cartas
     - Sustitución de los íconos elementales
